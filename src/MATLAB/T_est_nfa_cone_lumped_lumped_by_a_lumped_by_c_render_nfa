@@ -1,0 +1,97 @@
+digraph {
+	fake [style=invisible]
+	18 [shape=doublecircle]
+	15
+	5
+	17
+	19 [shape=doublecircle]
+	22 [shape=doublecircle]
+	4
+	8
+	14
+	7
+	12
+	20 [shape=doublecircle]
+	3
+	21 [shape=doublecircle]
+	6
+	24 [shape=doublecircle]
+	13
+	23 [shape=doublecircle]
+	10
+	16
+	0 [root=true]
+	11
+	26 [shape=doublecircle]
+	9
+	1
+	2
+	25 [shape=doublecircle]
+	fake -> 0 [style=bold]
+	18 -> 18 [label=d]
+	19 -> 19 [label=c]
+	19 -> 19 [label=a]
+	24 -> 24 [label=d]
+	21 -> 21 [label=d]
+	20 -> 20 [label=a]
+	0 -> 0 [label=c]
+	2 -> 2 [label=b]
+	0 -> 0 [label=a]
+	25 -> 25 [label=a]
+	22 -> 22 [label=e]
+	26 -> 26 [label=b]
+	22 -> 22 [label=b]
+	26 -> 26 [label=e]
+	24 -> 24 [label=e]
+	26 -> 26 [label=f]
+	22 -> 22 [label=f]
+	18 -> 18 [label=e]
+	20 -> 20 [label=d]
+	24 -> 24 [label=b]
+	2 -> 2 [label=c]
+	2 -> 2 [label=a]
+	2 -> 25 [label=f]
+	23 -> 23 [label=d]
+	26 -> 26 [label=c]
+	21 -> 21 [label=e]
+	19 -> 19 [label=d]
+	22 -> 22 [label=c]
+	18 -> 18 [label=b]
+	22 -> 22 [label=a]
+	0 -> 0 [label=d]
+	25 -> 25 [label=d]
+	21 -> 21 [label=b]
+	24 -> 24 [label=c]
+	18 -> 18 [label=f]
+	24 -> 24 [label=a]
+	21 -> 21 [label=c]
+	23 -> 23 [label=e]
+	26 -> 26 [label=a]
+	2 -> 2 [label=d]
+	0 -> 0 [label=e]
+	24 -> 24 [label=f]
+	20 -> 20 [label=e]
+	21 -> 21 [label=f]
+	23 -> 23 [label=b]
+	18 -> 18 [label=c]
+	18 -> 18 [label=a]
+	19 -> 19 [label=e]
+	20 -> 20 [label=b]
+	26 -> 26 [label=d]
+	21 -> 21 [label=a]
+	25 -> 25 [label=e]
+	22 -> 22 [label=d]
+	19 -> 19 [label=b]
+	20 -> 20 [label=f]
+	23 -> 23 [label=c]
+	25 -> 25 [label=b]
+	23 -> 23 [label=a]
+	23 -> 23 [label=f]
+	19 -> 19 [label=f]
+	20 -> 20 [label=c]
+	25 -> 25 [label=c]
+	25 -> 25 [label=f]
+	0 -> 0 [label=f]
+	0 -> 2 [label=b]
+	2 -> 2 [label=e]
+}
